@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Media query for smaller devices */
+@media (max-width: 768px) {
+  #root {
+    max-width: 100%;
+    padding: 1rem;
+  }
+}
+
+/* Media query for very small devices */
+@media (max-width: 480px) {
+  #root {
+    padding: 0;
+  }
+}
